@@ -8,7 +8,7 @@
             beerBottles.song();
         }
         // Method to print a verse of the song 
-        public void printVerse(int bottles)
+        public void Verse(int bottles)
         {
 
             // Check if there are more bottles left after taking one down
@@ -36,7 +36,7 @@
 
             for (int bottles = 99; bottles > 0; bottles--)
             {
-                printVerse(bottles);
+                Verse(bottles);
             }
 
         }
